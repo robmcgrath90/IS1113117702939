@@ -1,28 +1,103 @@
 <!DOCTYPE html>
- <html>
-     <head>
-         <title>Sports  </title>
-              <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
-          
-          <style>
-          h1{ text-decoration: underline;
-          }
-          </style>    
-             
-              
-     </head>
-     <body>
-         <h1 class="mainheading">Sports i like </h1>
-     
-         <p><strong>Football</strong> Arsenal </p>
-         <img src="images/Arsenal.jpeg" alt="sun" width="200" height="150">
-         <p><strong>UFC</strong></p>
-         <p><strong></strong></p>
-         <p><strong></strong></p>
-     
-         
-         <a href="travel.html" class="btn btn-dark">Travel</a>
-     </body>
-     
-     
- </html>  
+<html>
+<head>
+	<title>1113117702939</title>
+	<link rel="stylesheet" type="text/css" href="main.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+
+	h3 {
+    text-decoration: underline;
+}
+	
+</style>
+</head>
+<body>
+
+<div id="container">
+<div id="header">
+		<h1>1113117702939 - IS1113 Project! </h1>
+	</div>
+	
+	<div id="nav">
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li class="dropdown">
+    <a  href="javascript:void(0)" class="dropbtn">Curriculum Vitae</a>
+    <div class="dropdown-content">
+      <a href="cv.html">Personal Details</a>
+      <a href="cv2.html">Educational Details</a>
+      <a href="cv3.html">Work Details</a>
+    </div>
+	<li class="dropdown">
+    <a class="active"a href="javascript:void(0)" class="dropbtn">Interests</a>
+    <div class="dropdown-content">
+      <a class="active"a href="sports.html">Sports</a>
+      <a href="travel.html">Travel</a>
+      <a href="cloud.html">Cloud</a>
+    </div>
+	<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Cloud Shop</a>
+    <div class="dropdown-content">
+      <a href="about.html">About Cloud</a>
+      <a href="ebus1.php">Products</a>
+    </div>
+	</li>
+	</ul>
+	</div>
+	
+	<div id="s">
+	</div>
+	
+		<div id="c3">
+			<h3><strong>Sports That i am interested in</strong></h3>
+				
+			<p>UFC</p>
+			<p>Football</p>
+			<p>Boxing</p>
+			
+	
+		</div>
+		
+		<div id="main2">
+		
+	
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="images/ufc.jpeg" style="width:500px">
+  <img class="mySlides" src="images/arsenal.jpeg" style="width:500px">
+  
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+		
+		</div>
+		
+		
+	<div id="footer">
+		copyright &copy; Robert McGrath
+	</div>
+
+
+</body>
+
+
+</html>
