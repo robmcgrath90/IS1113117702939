@@ -32,10 +32,10 @@ var	dis3 = (dis2 * 0.05);
 
 function vat1(vat2){
 	
+	var vat4;
 	
 	
-	
-var	vat4 = (vat2 * 0.05)
+	vat4 = (vat2 * 0.05)
 
 var	vat3 = ((vat2 - vat4 )* 0.10);
 	

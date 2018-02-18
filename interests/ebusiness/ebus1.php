@@ -57,7 +57,7 @@
             
             <br/>
             
-            <form method="post" name ="form1" action="ebus2".pho align="center" >
+            <form method="post" name ="form1" action="ebus2".pho  >
             
 			<h4>Select a Product</h4>
             <label for ="salesforce">
@@ -108,13 +108,13 @@
          <td><input type="text" id="total" value="0.00" readonly/></td>
         </tr>
         <tr>
-            <td> <button type="submit" id="btnproceed" disabled>add              to shopping cart</button></td></td>
+            <td> <button type="submit" id="btnproceed" disabled>add  to shopping cart</button></td>
         </tr>
 		</table>
-		 <button onclick="calcSub()">Calculate Cost</button>
+		
             </form>
             <br/>
-			
+			 <button onclick="calcSub()">Calculate Cost</button>
            
 			
 			
