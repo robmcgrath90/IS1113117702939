@@ -9,8 +9,10 @@
 	   
 	   <style>
 	   form{
-		  text-align:center; 
+		  
+		  text-align:left; 
 	   }
+	   
 	   </style>
 	   
 	   
@@ -55,7 +57,7 @@
             
             <br/>
             
-            <form method="post" name ="form1" action="ebus2".pho>
+            <form method="post" name ="form1" action="ebus2".pho align="center" >
             
 			<h4>Select a Product</h4>
             <label for ="salesforce">
@@ -87,40 +89,33 @@
 			<br/>
             <br/>
             
-            <label for="subtotal">
-                Sub Total
-             <input type="text" id="subtotal" value="0.00" readonly/>
-            </label>     
-                
-            <br/>
-            
-			<label for="dis">
-                dis
-                <input type="text" id="dis" value="0.00" readonly/>
-            </label>
-			
-			 <br/>
-			
-            <label for="vat">
-                vat
-                <input type="text" id="vat"  value="0.00" readonly/>
-            </label>
-			
-            <br/>
-		
-			
-            <label for="total">
-                total
-                <input type="text" id="total" value="0.00" readonly/>
-            </label>
-			
-            <br/>
-			
-            <button type="submit" id="btnproceed" disabled>add to shopping cart</button>
+             <table align ="center">
+        <tr>
+            <td><label for="subtotal"> Sub Total </label></td>
+            <td><input type="text" id="subtotal" value="0.00" readonly/></td>
+        </tr>
+         <tr>
+            <td><label for="dis"> Discount </label></td>
+            <td>  <input type="text" id="dis" value="0.00" readonly/>         </td>
+        </tr>
+        <tr>
+        <td><label for="vat">vat</label></td> 
+          
+        <td><input type="text" id="vat"  value="0.00" readonly/>             </td>
+        </tr>
+         <tr>
+         <td><label for="total">Total</label></td>
+         <td><input type="text" id="total" value="0.00" readonly/></td>
+        </tr>
+        <tr>
+            <td> <button type="submit" id="btnproceed" disabled>add              to shopping cart</button></td></td>
+        </tr>
+		</table>
+		 <button onclick="calcSub()">Calculate Cost</button>
             </form>
             <br/>
 			
-            <button onclick="calcSub()">Calculate Cost</button>
+           
 			
 			
             <a role="button" href="ebus1.php">clear choice</a>
