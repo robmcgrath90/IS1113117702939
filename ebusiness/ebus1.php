@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,7 +5,7 @@
         
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
        <script type="text/javascript" src="cost_calc.js"></script>
-       		<link rel="stylesheet" type="text/css" href="../../main.css" />
+       		<link rel="stylesheet" type="text/css" href="../main.css" />
 	   
 	   <style>
 	   form{
@@ -30,16 +29,16 @@
 	<li class="dropdown">
     <a  href="javascript:void(0)" class="dropbtn">Curriculum Vitae</a>
     <div class="dropdown-content">
-      <a href="cv.html">Personal Details</a>
-      <a href="cv2.html">Educational Details</a>
-      <a href="cv3.html">Work Details</a>
+      <a href="../cv.html">Personal Details</a>
+      <a href="../cv2.html">Educational Details</a>
+      <a href="../cv3.html">Work Details</a>
     </div>
 	<li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">Interests</a>
     <div class="dropdown-content">
-      <a href="sports.html">Sports</a>
-      <a href="travel.html">Travel</a>
-      <a href="cloud.html">Cloud</a>
+      <a href="../interests/sports.html">Sports</a>
+      <a href="../interests/travel.html">Travel</a>
+      <a href="../interests/cloud.html">Cloud</a>
     </div>
 	<li class="dropdown">
     <a class="active"  href="javascript:void(0)" class="dropbtn">Cloud Shop</a>
