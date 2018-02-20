@@ -6,9 +6,7 @@
         
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
        <script type="text/javascript" src="cost_calc.js"></script>
-       		<link rel="stylesheet" type="text/css" href="../main.css" />
-	   
-	  
+       		<link rel="stylesheet" type="text/css" href="../../main.css" />
 	   
 	   <style>
 	   form{
@@ -17,15 +15,12 @@
 	   }
 	   
 	   </style>
-	   
-	   
-	   
+	  
     </head>
     
     <body>
-			
-			<div id="container">
-<div id="header">
+	<div id="container">
+    <div id="header">
 		<h1>1113117702939 - IS1113 Project! </h1>
 	</div>
 	
