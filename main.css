@@ -33,7 +33,7 @@ h1, h2, h3 {
 		text-align: center;
 }
 #header {
-	background-color: #4d4dff;
+	background-color: #000000;
 	color: white;
 	text-align: center;
 	padding: 10px;
@@ -50,7 +50,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #909090;
+    background-color: #0375B4;
 }
 
 li {
@@ -154,7 +154,7 @@ li a:hover:not(.active) {
 #footer {
 	clear: both;
 	padding: 10px;
-	background-color: #909090;
+	background-color: #000000;
 	color: white;
 	text-align: right;
 	position: fixed;
