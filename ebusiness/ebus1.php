@@ -55,38 +55,45 @@
             <br/>
             
             <form method="post" name ="form1" action="ebus2.php" >
+            <table>
             
 			<h4>Select a Product</h4>
-            <label for ="salesforce">
-            <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+			<tr>
+             <td><label for ="salesforce"></td>
+            <td><input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
             salesforce @ $100
-            </label>
+            </label></td>
+            </tr>
             
             <br/>
-            
-			<label for ="cloud">
-            <input type="radio" id="cloud" name="product" onClick="disablebtnProceed()"/>
+            <tr>
+		    <td><label for ="cloud"></td>
+            <td><input type="radio" id="cloud" name="product" onClick="disablebtnProceed()"/>
             cloud 9 @ $200
-            </label>    
+            </label></td> 
+            </tr>
             
             <br/>
-			
-			<label for ="aws">
-            <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
+			<tr>
+			<td><label for ="aws"></td>
+            <td><input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
             Amazon Web Service WS @ $300
-            </label>  
-			
+            </label> </td> 
+			</tr>
 			<br/>
 			
-			<label for ="gmail">
-            <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
+			<tr>
+			<td><label for ="gmail"></td>
+            <td><input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
             gmail @ $400
-            </label>   
+            </label></td>
+            	</tr>
+			</table>
 			
 			<br/>
             <br/>
             
-             <table align ="center">
+             <table>
         <tr>
             <td><label for="subtotal"> Sub Total </label></td>
             <td><input type="text" id="subtotal" value="0.00" readonly/></td>
@@ -110,6 +117,7 @@
 		</table>
 		
             </form>
+            
             <br/>
 			 <button onclick="calcSub()">Calculate Cost</button>
            
