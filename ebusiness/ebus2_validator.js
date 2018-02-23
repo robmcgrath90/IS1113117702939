@@ -2,9 +2,14 @@
 
 function validateDetails() {
     
-    var pin;
+    var pin 
+    var name
+    var email
+    
     
     pin= document.getElementById("user_pin").value;
+    name=document.getElementById("name").value;
+    email=document.getElementById("email").value;
     
     if(pin == ""){
         alert("please enter your PIN")
@@ -20,10 +25,10 @@ function validateDetails() {
 }
 
 function enablebtnPurchase(){
-    $("btnPurchase").prop("disabled", false)
+    $('#btnPurchase').prop('disabled', false);
     
 }
 
 function disablebtnPurchase(){
-    $("#btnPurchase").prop("disabled", true)
+    $('#btnPurchase').prop('disabled', true);
 }

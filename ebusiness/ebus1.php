@@ -54,7 +54,7 @@
             
             <br/>
             
-            <form method="post" name ="form1" action="ebus2".pho  >
+            <form method="post" name ="form1" action="ebus2.php" >
             
 			<h4>Select a Product</h4>
             <label for ="salesforce">
@@ -102,7 +102,7 @@
         </tr>
          <tr>
          <td><label for="total">Total</label></td>
-         <td><input type="text" id="total" value="0.00" readonly/></td>
+         <td><input type="text" id="total" name="total" value="0.00" readonly/></td>
         </tr>
         <tr>
             <td> <button type="submit" id="btnproceed" disabled>add  to shopping cart</button></td>
