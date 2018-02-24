@@ -167,3 +167,49 @@ form1 {
     display: inline-block;
     text-align: center;
 }
+
+.about-section {
+    max-width: 1280px;
+
+    overflow: hidden;
+
+    padding-bottom: 90px;
+
+    margin: 0 auto;
+
+}
+
+ 
+
+
+
+ 
+
+.box {
+
+    box-sizing: border-box;
+
+    width: 22%;
+
+    max-width: 275px;
+
+    height: 275px;
+
+    float: left;
+
+    border: 3px ;
+
+    margin-left: 4%;
+
+}
+
+ 
+
+#firstBox{
+
+    margin-left: 0px;
+
+}
+
+
+
