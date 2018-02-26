@@ -106,7 +106,7 @@ li a:hover:not(.active) {
 }
 /* */
 #c2 {
-	width:30%;
+	width:29%;
 	float:right;
 	                         
 }
@@ -114,7 +114,8 @@ li a:hover:not(.active) {
 	width:30%;
 	float: left;
 	min-height:300px;
-	
+	 padding: 20px ;
+
 }
 
 #c2 ul {
@@ -136,10 +137,10 @@ li a:hover:not(.active) {
 
 #main {
 	
-	width: 70%;
+	width: 60%;
 	float: left;
 	min-height:300px;
-	
+	padding: 1% ;
 }
 #main2{
 	
@@ -180,11 +181,6 @@ form1 {
 }
 
  
-
-
-
- 
-
 .box {
 
     box-sizing: border-box;
@@ -193,7 +189,7 @@ form1 {
 
     max-width: 275px;
 
-    height: 275px;
+    height:350;
 
     float: left;
 
@@ -202,8 +198,23 @@ form1 {
     margin-left: 4%;
 
 }
+.box2 {
 
- 
+    box-sizing: border-box;
+
+    width: 22%;
+
+    max-width: 275px;
+
+    height:350;
+
+    float: left;
+
+    border: 3px ;
+
+    margin-left: 4%;
+
+}
 
 #firstBox{
 
