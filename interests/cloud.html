@@ -2,11 +2,39 @@
 <html>
 <head>
 	<title>1113117702939</title>
+
+	<link rel="stylesheet" href="int_pages.css" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="../main.css" />
+	
+	 <!--Adding JQUERY-->
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        
+        <!--Page Piling-->
+        
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+        
+        <script type = "text/javascript">
+             $(document).ready(function() {
+                $('#pagepiling').pagepiling({
+                });
+             });
+
+	</script>
+    
+    <style>
+     
+    </style>
+
+
+
 </head>
 <body>
-
-<div id="container">
+        <div id="container">
 <div id="header">
 		<h1>1113117702939 - IS1113 Project! </h1>
 	</div>
@@ -15,7 +43,7 @@
 	<ul>
 	<li><a href="../index.html">Home</a></li>
 	<li class="dropdown">
-    <a  href="javascript:void(0)" class="dropbtn">Curriculum Vitae</a>
+    <a  href="../cv.html" class="dropbtn">Curriculum Vitae</a>
     <div class="dropdown-content">
       <a href="../cv.html">Personal Details</a>
       <a href="../cv2.html">Educational Details</a>
@@ -24,31 +52,45 @@
 	<li class="dropdown">
     <a class="active"a href="javascript:void(0)" class="dropbtn">Interests</a>
     <div class="dropdown-content">
-      <a href="sports.html">Sports</a>
+      <a class="active"a href="sports.html">Sports</a>
       <a href="travel.html">Travel</a>
-      <a class="active"a href="cloud.html">Cloud</a>
+      <a href="cloud.html">Cloud</a>
     </div>
 	<li class="dropdown">
-    <li><a href="../ebusiness/indexCloud.html">Cloud Shop</a></li>
+     <li><a href="../ebusiness/indexCloud.html">Cloud Shop</a></li>
+     <li style="float:right"><a href="https://github.com/robmcgrath90/IS1113117702939/graphs/commit-activity">Github</a></li>
+    <li style="float:right"><a href="https://is1113117702939.herokuapp.com/">https://is1113117702939.herokuapp.com/</a></li>
 	</li>
 	</ul>
 	</div>
-	
-	<div id="s">
-	</div>
-	
-		<div id="c2">
-			<h3>container 2<h3>
-			
-			
-		</div>
-		
-		<div id="main">
-			<h2> Home Page</h2>
-		
-		</div>
-		
-	<div id="footer">
+    </div>
+
+	<div id="pagepiling">
+            <div class="section" id="section1">
+                <h1>What is cloud Services</h1>
+                </br>
+                <p>Cloud Services are a wide range of resources that a service provider delivers via the internet</p>
+                <p>there are many cloud vendors, such as Cloud9, Gmail, Salesforce and AWS</p>
+                </div>
+            
+            
+        	<div class="section" id="section2">
+        	    <h1>is it safe ?</h1>
+        	    <p>Even though many skeptics have said that the cloud may not be safe for storing users data, this
+        	    has been debunked numberous times.</p>
+        	</div>
+        	
+        	<div class="section" id="section3">
+        	    <h1>Why use Cloud Services</h1>
+        	    <p>not only is it a great way at storing your data, but you also dont get caught with the burden of having to
+        	    update the software regularly. storing your data on the cloud is a great back up and frees space on your physichal computer</p>
+        	    
+        	    
+        	    
+        	  
+                
+              </div>
+			<div id="footer">
 		copyright &copy; Robert McGrath
 	</div>
 

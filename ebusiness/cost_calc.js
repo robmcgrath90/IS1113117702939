@@ -17,53 +17,29 @@ function calcSub(){
         argSubTotal = 400;
     }
     
-	calcTotal(argSubTotal);
-    display(argSubTotal);
-    vat1(argSubTotal);
-    dis1(argSubTotal);
-}
-function dis1(dis2){
-
-var	dis3 = (dis2 * 0.05);
-	
-	document.getElementById("dis").value = dis3;
+	calcDisVatTotal(argSubTotal);
 }
 
-
-function vat1(vat2){
-	
-	var vat4;
-	
-	
-	vat4 = (vat2 * 0.05)
-
-var	vat3 = ((vat2 - vat4 )* 0.10);
-	
-	
-	document.getElementById("vat").value = vat3;
-	
-}
-
-function calcTotal(parmtotal){
-
-var	disTotal = (parmtotal * 0.05)
-	
-var	vatTotal = ((parmtotal - disTotal)* 0.10);
-	
-var	totalAmount = (vatTotal  + parmtotal - disTotal )
-
-	 document.getElementById("total").value = totalAmount;
-}
-
-
-function display(parm1){
+function calcDisVatTotal(parmSubTotal){
     
-	
-    document.getElementById("subtotal").value = parm1;
+    var discountAmt = parmSubTotal * 0.05;
+    var vatAmt = (parmSubTotal - discountAmt) * 0.10;
+    var totalPrice = parmSubTotal - discountAmt + vatAmt;
+    
+    display(parmSubTotal, discountAmt, vatAmt, totalPrice);
+}
+
+function display(parm1, parm2, parm3, parm4){
    
-    
-    enablebtnProceed();
+   document.getElementById("subtotal").value = parm1;
+   document.getElementById("dis").value = parm2;
+   document.getElementById("vat").value = parm3;
+   document.getElementById("total").value = parm4;
+   
+   enablebtnProceed(); 
 }
+
+
 
 function enablebtnProceed(){
     $('#btnproceed').prop('disabled', false);

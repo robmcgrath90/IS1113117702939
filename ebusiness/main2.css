@@ -1,40 +1,100 @@
-/*body is used throughout both website, will be styled internally in the software website */
-body {
-	background-color: #99CCFF;
-	font-family: Helvetica, Arial, sans-serif;
-}
-a {
-	text-decoration: none;
-	color: red;
+form1 {
+    display: inline-block;
+    text-align: center;
 }
 
-h1, h2, h3 {
-	margin: 0;
+.about-section {
+    max-width: 1280px;
+
+    overflow: hidden;
+
+    padding-bottom: 90px;
+
+    margin: 0 auto;
+
+}
+/*box is used on the about.html, software selling web site */
+ 
+.box {
+
+    box-sizing: border-box;
+
+    width: 22%;
+
+    max-width: 275px;
+
+    height:350;
+
+    float: left;
+
+    border: 3px ;
+
+    margin-left: 4%;
+
+}
+.box2 {
+
+    box-sizing: border-box;
+
+    width: 22%;
+
+    max-width: 275px;
+
+    height:350;
+
+    float: left;
+
+    border: 3px ;
+
+    margin-left: 4%;
+
+}
+
+#firstBox{
+
+    margin-left: 0px;
+
+}
+#footer {
+	clear: both;
+	padding: 10px;
+	background-color:#404040;
+	color: white;
+	text-align: right;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+/*body is used throughout both website, will be styled internally in the software website */
+body {
+	background-color:  #ffff80;
+	font-family: Helvetica, Arial, sans-serif;
+}
+h2{
+    font-family:Aileron;
+    text-decoration: underline;
+}
+p{
+   font-family: UBUNTU;
 }
 
 
 #container {
-	background-color: #99CCFF;
+	background-color:#ffff80;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 /*s = space*/
 #s{
-	background-color: #99CCFF;
+	background-color:#ffff80;
 	padding: 10px;
 	width:100%;
 }
-#c1{
-		
-		min-height:300px;
-		padding:1%;
-		margin:1%;
-		float:left;
-		text-align: center;
-}
+
 #header {
-	background-color: #000000;
+    background-color:#0375B4;
 	color: white;
 	text-align: center;
 	padding: 10px;
@@ -53,7 +113,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #0375B4;
+    background-color: #b3d9ff;
 }
 
 li {
@@ -107,39 +167,6 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
-/* */
-#c2 {
-	width:29%;
-	float:right;
-	                         
-}
-#c2 ul {
-	list-style-type: none;
-	padding:0;
-}
-
-/*C3 is used on indexloud.html and sports.html */
-#c3{
-	width:30%;
-	float: left;
-	min-height:300px;
-	padding: 2%;
-
-}
-
-
-#cv{
-	width:100%;
-	float: left;
-	min-height:300px;
-
-}
-
-
-#nav .selected {
-		font-weight: bold;
-}
-
 #main {
 	
 	width: 60%;
@@ -147,29 +174,34 @@ li a:hover:not(.active) {
 	min-height:300px;
 	padding: 1% ;
 }
-#main2{
+#main2 {
 	
-	width: 68%;
+	width: 50%;
+	float: left;
+	min-height:300px;
+	padding: 1% ;
+}
+#c1{
+    width: 30%;
+	float: left;
+	min-height:300px;
+	padding:2%;
+}
+#c2{
+    width: 60%;
 	float: right;
 	min-height:300px;
-	
+	padding:2%;
 }
-	
-	
-  /* footer is for the personal website */
-#footer {
-	clear: both;
-	padding: 10px;
-	background-color: #000000;
-	color: white;
-	text-align: right;
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	left: 0;
+#c3{
+    width: 40%;
+	float: right;
+	min-height:300px;
+	padding:3%;
 }
- 
+#space{
+	width:100%;
+	float: left;
+	min-height:50px;
 
-
-
-
+}
